@@ -1,3 +1,9 @@
 program{
     Mover(Norte)
 }
+
+procedure Pone5Rojos(){
+    repeat(5){
+        Poner(Rojo)
+    }
+}
