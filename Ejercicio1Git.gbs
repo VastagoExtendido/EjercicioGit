@@ -7,3 +7,9 @@ procedure Pone5Rojos(){
         Poner(Rojo)
     }
 }
+
+procedure MoverHastaElBorde_(direccion){
+    while(puedeMover (direccion)){
+        Mover(direccion)
+    }
+}
