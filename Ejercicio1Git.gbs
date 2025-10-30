@@ -9,7 +9,9 @@ procedure Pone5Rojos(){
 }
 
 procedure MoverHastaElBorde_(direccion){
+    contador := 0
     while(puedeMover (direccion)){
+        contador := contador + 1
         Mover(direccion)
     }
 }
